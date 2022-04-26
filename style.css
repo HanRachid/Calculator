@@ -51,6 +51,8 @@ body{
     width: 70%;
     background-color: #90837d;
     display: flex;
+    
+    overflow: wrap;
     flex-direction: column;
     justify-content: space-around;
     
@@ -58,7 +60,7 @@ body{
 }
 
 .history, .display{
-    
+    flex-wrap: wrap;
     padding-left: 10px;
     font-family: "Pretendo"
     
