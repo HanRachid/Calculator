@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/squirtle.jpg);
+    background-color: #f3e3dc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.console{
+    height: 350px;
+    width: 200px;
+    
+    background-color: #02b7d4;
+    border-radius: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+}
+
+.screencontainer{
+    width : 90%;
+    height : 50%;
+    background-color: #4c4c4c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo{
+    height:20px;
+    width: 80px;
+    
+}
+.screen{
+    margin-top: 10px;
+    height: 70%;
+    width: 70%;
+    background-color: #90837d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+
+.history, .display{
+    
+    padding-left: 10px;
+    font-family: "Pretendo"
+    
+    
+}
+
+.bottom{
+    
+    width : 90%;
+    height : 45%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.buttons{
+    font-weight: bolder;
+    
+    flex-basis:  12%;
+    padding: 3px;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    user-select: none;
+    background-color: #69615d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple{background-color: #7949bf ;}
+
+.yellow{background-color:#ffe943 ;}
+.red{background-color: #fb0b62;}
+
+.red,.purple,.yellow{
+    outline : 1px solid grey;
+}
